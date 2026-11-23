@@ -1,0 +1,37 @@
+# Local secrets and private configuration
+secrets.h
+secrets.local.h
+.env
+.env.*
+!.env.example
+*credentials*
+private_config.*
+
+# Arduino IDE / build output
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.a
+*.d
+*.ino.elf
+*.ino.hex
+
+# PlatformIO
+.pio/
+.platformio/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
